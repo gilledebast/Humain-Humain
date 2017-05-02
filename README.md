@@ -1,13 +1,13 @@
 ## Humain – Humain
-####Human–Human Project
+#### Human–Human Project
 
-######Description
+###### Description
 
 More Soon
 
 *This Repro is a part of Human–Human Project*
 
-######Credit
+###### Credit
 
 - Concept and design : Lucile CROSETTI, Amélie SOUTSAMRAN, Amandine HENAFF, Bastien DIDIER
 - Development : Bastien DIDIER
