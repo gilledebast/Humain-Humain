@@ -11,3 +11,5 @@ More Soon
 
 - Concept and design : Lucile CROSETTI, Amélie SOUTSAMRAN, Amandine HENAFF, Bastien DIDIER
 - Development : Bastien DIDIER
+
+![Interactivity Tree](le_feel/img/le_feel.png)
