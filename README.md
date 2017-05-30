@@ -5,7 +5,7 @@
 
 More Soon
 
-*This Repro is a part of Human–Human Project*
+*This Repositorie is a part of Human–Human Project *
 
 ###### Credit
 
