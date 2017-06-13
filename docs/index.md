@@ -33,20 +33,21 @@ L'adaptation très rapide de cette cellule demande une solicitation repèté pou
 
 [img src="img/potentiel_pacini.jpg"]
 
-(fr) Corpuscule de Pacini [https://fr.wikipedia.org/wiki/Corpuscule_de_Pacini]
+(fr) [Corpuscule de Pacini] (https://fr.wikipedia.org/wiki/Corpuscule_de_Pacini)
 
 ## Étude sur les bobinages
 ### Introduction sur l'utilisation des bobinages
 
 Les bobinages sont un enroulement d'un fil conducteur créant un champ magnétique
 
-(fr) Bobine élèctricité [https://fr.wikipedia.org/wiki/Bobine_(électricité)]
+(fr) [Bobine élèctricité] (https://fr.wikipedia.org/wiki/Bobine_(électricité))
 
 ### Loi de LENZ
 Le phénomène d'induction électromagnétique s'oppose à la cause qui lui a donné naissance.
-(fr) Loi de LENZ-FARADAY [https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday]
 
 [img src="img/lenz.jpg"]
+
+(fr) [Loi de LENZ-FARADAY] (https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
 
 ### Étude de bobine en plan pour la gravure
 
