@@ -7,7 +7,7 @@
 
 La peau est constitué de différent Mécanorécépteur qui réagisse plus ou moins rapidement avec un facteur d'adaptabilité
 
-[img src="img/skin_structure.jpg"]
+![Structure Derme](img/structure_derme.jpg)
 
 On retrouve dans la strucutre du derme plusieur type de mécanorécépteur :
 
