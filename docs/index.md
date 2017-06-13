@@ -59,19 +59,24 @@ Cette propriété électrique permet de nous indiquer comment alimenter les bobi
 
 (fr) [Loi de LENZ-FARADAY](https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
 
+Cette loi nous permet de faire les premières simulation pour reproduire la sensation de toucher.
 
+![Simulation Bobinage](img/simulation_bobinage.gif)
 
-Cette loi nous permet de faire les première simulation pour reproduire la sensation de touché
-
-![Simulation Bobinage](simulation_bobinage.gif)
-
-Avec cette même loi voilà une simulation sur 9 cellules du prototype
+Avec cette même loi, simulation avec 9 cellules.
 
 ![Simulation Bobinage](img/simulaiton_bobine.gif)
+
+Après simulation on remarque plusieurs choses :
+
+* Il serait interressant de tenter de produire les bobines à plat même si le champ magnétique n'est pas idéal
+* Une optimisation de la forme des bobines est possible pour améliorer le rendement de l'inductance
 
 ### Étude de bobine en plan pour la gravure
 
 Pour optimiser la fabrication du bobinage du produit l'idéal serait de pouvoir produire les bobine en plan grace a un procédé simple de gravure de PCB sur [Pyralux](http://www.dupont.com/content/dam/dupont/products-and-services/electronic-and-electrical-materials/flexible-rigid-flex-circuit-materials/documents/PyraluxAPclad_DataSheet.pdf), un matériaux souple utilisé pour fabriquer des PCB.
+
+Si le bobinage en plan s'avere
 
 ##### Génération de bobine en plan
 
@@ -97,3 +102,39 @@ endShape();
 Pour une utilisation optimale de la surface du Pyralux le cercle ne parait être adapté il fait naitre des ajouration entre chaque forme. un polygone devrait pouvoir optimiser l'espace et assurer une repartition total des bobines.
 
 ![Optimisation bobine](img/optimisation_bobine.png)
+
+
+### Conception LeFeel
+
+##### Simulation du textile
+
+Nos recherches nous permettent de créer la prermière simulation complète de notre textile sensible
+
+![LeFeel Prototype](img/lefeel_prototype.jpg)
+
+La simulation de tout les élèments du textile permettent d'en apercevoir la taille
+
+![LeFeel Simulation de l'épaisseur](img/lefeel_proto_size.jpg)
+
+##### Simulation du microcontroleur
+
+La définition de l'arbre d'interractivité nous permet de définir quell
+![Arbre d'interactivité](img/interactivity_tree.png)
+
+
+
+### transimittion du toucher en information
+
+###### Description d'une caresse en information
+
+![Transmition du toucher en information](img/Caress-01.jpg)
+
+###### Optimisation de la transmition du toucher
+
+Une approche vectorielle de la transmition du toucher pourrait nous permettre d'économiser de la transmittion d'information et donc de la batterie. à calculer si cette économie de Bits ne se pert pas en quand l'algorithme calcul la vecorisation en coordonnée.
+
+![Transmition du toucher en information](img/Caress-02.jpg)
+
+Les recherches de Vincent Hayward sont une ouverture pour optimiser le déclenchement des bobines
+
+![Perception du toucher](img/vincent_hayward_touch_perception.jpg)
