@@ -1,20 +1,19 @@
-
 # LeFeel
 
 
-## Étude des Mecanorécépteurs du Derme
+## Étude des Mécanorécépteurs du Derme
 ### La Strucutre du Derme
 
-La peau est constitué de différent Mécanorécépteur qui réagisse plus ou moins rapidement avec un facteur d'adaptabilité
+La peau est constitué de différent Mécanorécépteur qui réagissent plus ou moins rapidement avec un facteur d'adaptabilité.
 
 ![Structure Derme](img/structure_derme.jpg)
 
-On retrouve dans la strucutre du derme plusieur type de mécanorécépteur :
+On retrouve dans la strucutre du derme plusieurs type de mécanorécépteurs :
 
-• Les Corpuscules de Pacini
-• Les Corpuscules de Rufini
-• Les Corpuscules de Meissner
-• Les Disques de Merkel
+* Les Corpuscules de Pacini
+* Les Corpuscules de Rufini
+* Les Corpuscules de Meissner
+* Les Disques de Merkel
 
 *Notre études c'est orienté vers les Corpuscules de Pacini présent dans les différents type de peau même si ils sont sensible a des stimulations plus importante que d'autre récépteur.*
 
@@ -26,14 +25,23 @@ Les corpuscules de Pacini sont formés par de nombreuses lamelles concentriques.
 
 Lors de pression sur le corpuscule, l'énergie mécanique déforme la membrane neuronale de la fibre, ce qui a la propriété d'ouvrir les canaux ioniques et de provoquer l'apparition d'un potentiel récepteur.
 
-• Si l'intensité du stimulus est suffisante, ce potentiel récepteur se transforme en potentiel d'action dans la fibre.
-• Si la pression est continue, la fréquence des potentiels diminue.
+* Si l'intensité du stimulus est suffisante, ce potentiel récepteur se transforme en potentiel d'action dans la fibre.
+* Si la pression est continue, la fréquence des potentiels diminue.
 
 L'adaptation très rapide de cette cellule demande une solicitation repèté pour assurer une perception de touché optimal et convaincante.
 
 ![Adaptation Corpuscule de Pacini](img/corpuscule-pacini-adaptation.gif)
 
 (fr) [Corpuscule de Pacini](https://fr.wikipedia.org/wiki/Corpuscule_de_Pacini)
+
+
+## Étude sur la perception du touché
+
+### Optimisation de la taille de la cellule Haptique
+
+Pour s'assurer…
+
+Nous nous somme inspiré des recherches de [Vincent Hayward](http://www.isir.upmc.fr/?op=view_profil&id=19), Chercheur à l'ISIR il est spécialisé dans la conception d'inteface Haptique. Sa recherche nous apporte la connaicance de la taille idéale de notre cellule pour que l'utilisateur percoive le touché.
 
 ## Étude sur les bobinages
 ### Introduction sur l'utilisation des bobinages
@@ -43,15 +51,27 @@ Les bobinages sont un enroulement d'un fil conducteur créant un champ magnétiq
 (fr) [Bobine élèctricité](https://fr.wikipedia.org/wiki/Bobine_(électricité))
 
 ### Loi de LENZ
+
 Le phénomène d'induction électromagnétique s'oppose à la cause qui lui a donné naissance.
+Cette propriété électrique permet de nous indiquer comment alimenter les bobine et dans quel sens le courant doit circuler
 
 ![Loi de LENZ](img/loi_de_lenz.jpg)
 
 (fr) [Loi de LENZ-FARADAY](https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
 
+
+
+Cette loi nous permet de faire les première simulation pour reproduire la sensation de touché
+
+![Simulation Bobinage](simulation_bobinage.gif)
+
+Avec cette même loi voilà une simulation sur 9 cellules du prototype
+
+![Simulation Bobinage](img/simulaiton_bobine.gif)
+
 ### Étude de bobine en plan pour la gravure
 
-Pour optimiser la fabrication du bobinage du produit l'idéal serait de pouvoir produire les bobine en plan grace a un procédé simple de gravure de PCB sur [a href="Dupont"> Pyralux <], un matériaux souple utilisé pour fabriquer des PCB.
+Pour optimiser la fabrication du bobinage du produit l'idéal serait de pouvoir produire les bobine en plan grace a un procédé simple de gravure de PCB sur [Pyralux](http://www.dupont.com/content/dam/dupont/products-and-services/electronic-and-electrical-materials/flexible-rigid-flex-circuit-materials/documents/PyraluxAPclad_DataSheet.pdf), un matériaux souple utilisé pour fabriquer des PCB.
 
 ##### Génération de bobine en plan
 
