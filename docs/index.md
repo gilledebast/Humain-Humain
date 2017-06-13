@@ -4,31 +4,31 @@
 ## Étude des Mécanorécépteurs du Derme
 ### La Strucutre du Derme
 
-La peau est constitué de différent Mécanorécépteur qui réagissent plus ou moins rapidement avec un facteur d'adaptabilité.
+La peau est constituée de différents mécanorécepteurs qui réagissent plus ou moins rapidement avec un facteur d’adaptabilité.
 
 ![Structure Derme](img/structure_derme.jpg)
 
-On retrouve dans la strucutre du derme plusieurs type de mécanorécépteurs :
+On retrouve dans la structure du derme plusieurs types de mécanorécepteurs :
 
 * Les Corpuscules de Pacini
 * Les Corpuscules de Rufini
 * Les Corpuscules de Meissner
 * Les Disques de Merkel
 
-*Notre études c'est orienté vers les Corpuscules de Pacini présent dans les différents type de peau même si ils sont sensible a des stimulations plus importante que d'autre récépteur.*
+*Notre étude s'est orientée vers les corpuscules de Pacini présent dans les différents types de peau même s'ils sont sensibles à des stimulations plus importantes que d'autres récepteur.*
 
 ### Les Corpuscules de Pacini
 
-Les corpuscules de Pacini sont formés par de nombreuses lamelles concentriques. Au centre, se trouve une fibre sensitive. Ces cellules sont principalement des récepteurs de vibration de haute fréquence (pression intermittente). Les corpuscules sont des récepteurs phasiques, car leurs adaptations est très rapide.
+Les corpuscules de Pacini sont formés par de nombreuses lamelles concentriques. Au centre, se trouve une fibre sensitive. Ces cellules sont principalement des récepteurs de vibration de haute fréquence (pression intermittente). Les corpuscules sont des récepteurs phasiques, car leur adaptation est très rapide.
 
 ![Corpuscule de Pacini](img/corpuscule_de_pacini_img.jpg)
 
-Lors de pression sur le corpuscule, l'énergie mécanique déforme la membrane neuronale de la fibre, ce qui a la propriété d'ouvrir les canaux ioniques et de provoquer l'apparition d'un potentiel récepteur.
+Lors de pressions sur le corpuscule, l'énergie mécanique déforme la membrane neuronale de la fibre, ce qui a la propriété d'ouvrir les canaux ioniques et de provoquer l'apparition d'un potentiel récepteur.
 
 * Si l'intensité du stimulus est suffisante, ce potentiel récepteur se transforme en potentiel d'action dans la fibre.
 * Si la pression est continue, la fréquence des potentiels diminue.
 
-L'adaptation très rapide de cette cellule demande une solicitation repèté pour assurer une perception de touché optimal et convaincante.
+L'adaptation très rapide de cette cellule demande une sollicitation répétée pour assurer une perception de toucher optimale et convaincante.
 
 ![Adaptation Corpuscule de Pacini](img/corpuscule-pacini-adaptation.gif)
 
@@ -39,11 +39,15 @@ L'adaptation très rapide de cette cellule demande une solicitation repèté pou
 
 ## Étude sur la perception du touché
 
+Benchmark des technologie qui permettent de sentir :
+
+* marque n°1
+* marque n°2
+* marque n°3
+
 ### Optimisation de la taille de la cellule Haptique
 
-Pour s'assurer…
-
-Nous nous somme inspiré des recherches de [Vincent Hayward](http://www.isir.upmc.fr/?op=view_profil&id=19), Chercheur à l'ISIR il est spécialisé dans la conception d'inteface Haptique. Sa recherche nous apporte la connaicance de la taille idéale de notre cellule pour que l'utilisateur percoive le touché.
+Nous nous somme inspiré des recherches de [Vincent Hayward](http://www.isir.upmc.fr/?op=view_profil&id=19), Chercheur à l'ISIR il est spécialisé dans la conception d'inteface Haptique. Sa recherche nous apporte la connaicance de la taille idéale de notre cellule pour que l'utilisateur perçoive le toucher.
 
 ![Vincent Hayward](img/rsif20131015-g1.jpg)
 [Spatio-temporal skin strain distributions evoke low variability spike responses in cuneate neurons](https://www.ncbi.nlm.nih.gov/pubmed/24451390)
