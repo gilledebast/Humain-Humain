@@ -22,7 +22,7 @@ On retrouve dans la strucutre du derme plusieur type de mécanorécépteur :
 
 Les corpuscules de Pacini sont formés par de nombreuses lamelles concentriques. Au centre, se trouve une fibre sensitive. Ces cellules sont principalement des récepteurs de vibration de haute fréquence (pression intermittente). Les corpuscules sont des récepteurs phasiques, car leurs adaptations est très rapide.
 
-[img src="img/pacini.jpg"]
+![Corpuscule de Pacini](img/corpuscule_de_pacini_img.jpg)
 
 Lors de pression sur le corpuscule, l'énergie mécanique déforme la membrane neuronale de la fibre, ce qui a la propriété d'ouvrir les canaux ioniques et de provoquer l'apparition d'un potentiel récepteur.
 
@@ -31,23 +31,23 @@ Lors de pression sur le corpuscule, l'énergie mécanique déforme la membrane n
 
 L'adaptation très rapide de cette cellule demande une solicitation repèté pour assurer une perception de touché optimal et convaincante.
 
-[img src="img/potentiel_pacini.jpg"]
+![Adaptation Corpuscule de Pacini](img/corpuscule-pacini-adaptation.gif)
 
-(fr) [Corpuscule de Pacini] (https://fr.wikipedia.org/wiki/Corpuscule_de_Pacini)
+(fr) [Corpuscule de Pacini](https://fr.wikipedia.org/wiki/Corpuscule_de_Pacini)
 
 ## Étude sur les bobinages
 ### Introduction sur l'utilisation des bobinages
 
 Les bobinages sont un enroulement d'un fil conducteur créant un champ magnétique
 
-(fr) [Bobine élèctricité] (https://fr.wikipedia.org/wiki/Bobine_(électricité))
+(fr) [Bobine élèctricité](https://fr.wikipedia.org/wiki/Bobine_(électricité))
 
 ### Loi de LENZ
 Le phénomène d'induction électromagnétique s'oppose à la cause qui lui a donné naissance.
 
 [img src="img/lenz.jpg"]
 
-(fr) [Loi de LENZ-FARADAY] (https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
+(fr) [Loi de LENZ-FARADAY](https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
 
 ### Étude de bobine en plan pour la gravure
 
