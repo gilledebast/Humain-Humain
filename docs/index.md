@@ -157,7 +157,23 @@ Pour se faire 3 technologie s'ouvre à nous :
 	* + très grand débit de donnée
 	* + Très scalable
 	* - technologie assez chère
-	
+
+Nous avons choisi le technologie LTE qui est la plus courante et nous permet une grande quantité de donnée en transit
+Cette technologie posède une couverture mondiale bien meilleur que celle de l'internet traditionnel.
+
+![Couverture LTE](img/3GPP_Long_Term_Evolution_Country_Map.png)
+
+Pour récapituler notre hardware à besoin :
+
+* Une chip LTE
+* Gestion de l'alimentation
+* Multiplexage
+* Bouton RESET
+* LED de statut
+
+Simulation du micro contrôleur
+![Hardware prototype](img/hardware_1.png)
+
 ### transimittion du toucher en information
 
 ###### Description d'une caresse en information
