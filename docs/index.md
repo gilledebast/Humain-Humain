@@ -32,6 +32,8 @@ L'adaptation très rapide de cette cellule demande une solicitation repèté pou
 
 ![Adaptation Corpuscule de Pacini](img/corpuscule-pacini-adaptation.gif)
 
+![Stimulation Corpuscule de Pacini](img/stimulus_pacini.png)
+
 (fr) [Corpuscule de Pacini](https://fr.wikipedia.org/wiki/Corpuscule_de_Pacini)
 
 
@@ -42,6 +44,15 @@ L'adaptation très rapide de cette cellule demande une solicitation repèté pou
 Pour s'assurer…
 
 Nous nous somme inspiré des recherches de [Vincent Hayward](http://www.isir.upmc.fr/?op=view_profil&id=19), Chercheur à l'ISIR il est spécialisé dans la conception d'inteface Haptique. Sa recherche nous apporte la connaicance de la taille idéale de notre cellule pour que l'utilisateur percoive le touché.
+
+![Vincent Hayward](img/rsif20131015-g1.jpg)
+[Spatio-temporal skin strain distributions evoke low variability spike responses in cuneate neurons](https://www.ncbi.nlm.nih.gov/pubmed/24451390)
+
+Avec les recherches de Vincent Hayward nous optons donc pour une cellule de 8 mm de diamètre. Optimal pour la perception du toucher.
+
+Nous avons fais faire des aimants en Néodyme très puissant mais qui ont la particularité d'être extrêment fin. la taille de l'aimant est de 8 mm de diamètre avec une épaisseur de 0,8 mm.
+
+![Aimant Néodyme](img/S-08-08-N.png)
 
 ## Étude sur les bobinages
 ### Introduction sur l'utilisation des bobinages
@@ -94,7 +105,6 @@ beginShape();
 		curveVertex(x + spiralCenter.x, y + spiralCenter.y);
 	}  
 endShape();
-
 ```
 
 ##### Optimiation de la forme de la bobine en plan
@@ -118,11 +128,32 @@ La simulation de tout les élèments du textile permettent d'en apercevoir la ta
 
 ##### Simulation du microcontroleur
 
-La définition de l'arbre d'interractivité nous permet de définir quell
+La définition de l'arbre d'interractivité nous permet de définir les composants principaux de la carte élèctronique
+
 ![Arbre d'interactivité](img/interactivity_tree.png)
 
+Les contraites du microcontroleur sont principalement sa taille et son autonomie et sa configuration automatique.
 
+Notre contraite principale sera la facilité de configuration de l'objet par l'utilisateur. Son utilisation sera évidente et ne nécésitera pas de configuration. pas besoin d'entrer le mot de passe du réseau local ni d'effectuer un initialisation du controleur.
 
+Pour se faire 3 technologie s'ouvre à nous :
+
+* Sigfox
+	* + Acteur Francais
+	* + Technologie pes chère et scalable
+	* - Vitesse de transmittion des données très limités quelque bits par heure
+	
+* Lora (technologie devellopé par Orange)
+	* + Acteur Francais
+	* - Technologie encore nouvelle et peut répendu
+	* - Limitation du nombre de bits à envoyer
+	
+* LTE
+	* + Standar internationnal
+	* + très grand débit de donnée
+	* + Très scalable
+	* - technologie assez chère
+	
 ### transimittion du toucher en information
 
 ###### Description d'une caresse en information
