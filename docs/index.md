@@ -45,7 +45,7 @@ Les bobinages sont un enroulement d'un fil conducteur créant un champ magnétiq
 ### Loi de LENZ
 Le phénomène d'induction électromagnétique s'oppose à la cause qui lui a donné naissance.
 
-[img src="img/lenz.jpg"]
+![Loi de LENZ](img/loi_de_lenz.jpg)
 
 (fr) [Loi de LENZ-FARADAY](https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
 
@@ -57,10 +57,23 @@ Pour optimiser la fabrication du bobinage du produit l'idéal serait de pouvoir 
 
 Pour optimiser le rendement les bobines doivent être généré grace a des algorithmes strique qui respece l'espacement entre les conducteurs, espacement minimal dû a la gravure [en mm ?],
 
-[img src="img/coil_generator.gif"]
+```
+beginShape();
+	curveVertex(x + spiralCenter.x, y + spiralCenter.y);
+	while (currentRadian < endRadian)
+	{
+		currentRadian += deltaAngle;
+		currRadius = map(currentRadian, startRadian, endRadian, startRadius, endRadius);
+		x = cos(currentRadian) * currRadius;
+		y = sin(currentRadian) * currRadius;
+		curveVertex(x + spiralCenter.x, y + spiralCenter.y);
+	}  
+endShape();
+
+```
 
 ##### Optimiation de la forme de la bobine en plan
 
 Pour une utilisation optimale de la surface du Pyralux le cercle ne parait être adapté il fait naitre des ajouration entre chaque forme. un polygone devrait pouvoir optimiser l'espace et assurer une repartition total des bobines.
 
-[img src="coil_poly.jpg"]
+![Optimisation bobine](img/optimisation_bobine.png)
