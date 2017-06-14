@@ -174,6 +174,25 @@ Pour récapituler notre hardware à besoin :
 Simulation du micro contrôleur
 ![Hardware prototype](img/hardware_1.png)
 
+Après recherche nous avons trouvé un micro controleur qui répond a tout nos rêve : le G01 EOM Module fabriqué par [Pycom](https://www.pycom.io). [lien faire ses caractéristique >](img/g01Specsheet.pdf)
+![G01 EOM](img/G01.png)
+
+Simulation de la taille du controleur
+
+![Proto Size](img/lefeel_hardware1.png)
+![Proto Size](img/lefeel_hardware2.png)
+
+Simulation en 3D
+![Proto](img/lefeel_hardware3.png)
+![Proto](img/lefeel_hardware4.png)
+![Proto](img/lefeel_hardware5.png)
+
+CONNECTION entre le microontroleur et le textile par billage
+![Billage](img/billage1.png)
+![Billage](img/billage2.png)
+
+![Prototype Final](img/hardware_final_.png)
+
 ### transimittion du toucher en information
 
 ###### Description d'une caresse en information
