@@ -191,7 +191,7 @@ CONNECTION entre le microontroleur et le textile par billage
 ![Billage](img/billage1.png)
 ![Billage](img/billage2.png)
 
-![Prototype Final](img/hardware_final_.png)
+![Prototype Final](img/hardware_final.png)
 
 ### transimittion du toucher en information
 
