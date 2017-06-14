@@ -15,7 +15,7 @@ On retrouve dans la structure du derme plusieurs types de mécanorécepteurs :
 * Les Corpuscules de Meissner
 * Les Disques de Merkel
 
-*Notre étude s'est orientée vers les corpuscules de Pacini présent dans les différents types de peau même s'ils sont sensibles à des stimulations plus importantes que d'autres récepteur.*
+*Notre étude s'est orientée vers les corpuscules de Pacini présents dans les différents types de peau même s'ils sont sensibles à des stimulations plus importantes que d'autres récepteurs.*
 
 ### Les Corpuscules de Pacini
 
@@ -28,7 +28,7 @@ Lors de pressions sur le corpuscule, l'énergie mécanique déforme la membrane 
 * Si l'intensité du stimulus est suffisante, ce potentiel récepteur se transforme en potentiel d'action dans la fibre.
 * Si la pression est continue, la fréquence des potentiels diminue.
 
-L'adaptation très rapide de cette cellule demande une sollicitation répétée pour assurer une perception de toucher optimale et convaincante.
+L'adaptation très rapide de cette cellule demande une sollicitation répétée pour assurer une perception de toucher optimale et convainquante.
 
 ![Adaptation Corpuscule de Pacini](img/corpuscule-pacini-adaptation.gif)
 
@@ -39,7 +39,7 @@ L'adaptation très rapide de cette cellule demande une sollicitation répétée 
 
 ## Étude sur la perception du touché
 
-Benchmark des technologie qui permettent de sentir :
+Benchmark des technologies qui permettent de sentir :
 
 * marque n°1
 * marque n°2
@@ -47,34 +47,34 @@ Benchmark des technologie qui permettent de sentir :
 
 ### Optimisation de la taille de la cellule Haptique
 
-Nous nous somme inspiré des recherches de [Vincent Hayward](http://www.isir.upmc.fr/?op=view_profil&id=19), Chercheur à l'ISIR il est spécialisé dans la conception d'inteface Haptique. Sa recherche nous apporte la connaicance de la taille idéale de notre cellule pour que l'utilisateur perçoive le toucher.
+Nous nous sommes inspirés des recherches de [Vincent Hayward](http://www.isir.upmc.fr/?op=view_profil&id=19), chercheur à l'ISIR spécialisé dans la conception d'intefaces Haptiques. Sa recherche nous apporte la connaissance de la taille idéale de notre cellule pour que l'utilisateur perçoive le toucher.
 
 ![Vincent Hayward](img/rsif20131015-g1.jpg)
 [Spatio-temporal skin strain distributions evoke low variability spike responses in cuneate neurons](https://www.ncbi.nlm.nih.gov/pubmed/24451390)
 
-Avec les recherches de Vincent Hayward nous optons donc pour une cellule de 8 mm de diamètre. Optimal pour la perception du toucher.
+Avec les recherches de Vincent Hayward, nous optons donc pour une cellule de 8 mm de diamètre. Optimal pour la perception du toucher.
 
-Nous avons fais faire des aimants en Néodyme très puissant mais qui ont la particularité d'être extrêment fin. la taille de l'aimant est de 8 mm de diamètre avec une épaisseur de 0,8 mm.
+Nous avons fait faire des aimants en Néodyme très puissants mais qui ont la particularité d'être extrêmement fins. la taille de l'aimant est de 8 mm de diamètre avec une épaisseur de 0,8 mm.
 
 ![Aimant Néodyme](img/S-08-08-N.png)
 
 ## Étude sur les bobinages
 ### Introduction sur l'utilisation des bobinages
 
-Les bobinages sont un enroulement d'un fil conducteur créant un champ magnétique
+Les bobinages sont un enroulement d'un fil conducteur créant un champ magnétique.
 
-(fr) [Bobine élèctricité](https://fr.wikipedia.org/wiki/Bobine_(électricité))
+(fr) [Bobine élèctricité](https://fr.wikipedia.org/wiki/Bobine_(électricité)]
 
 ### Loi de LENZ
 
 Le phénomène d'induction électromagnétique s'oppose à la cause qui lui a donné naissance.
-Cette propriété électrique permet de nous indiquer comment alimenter les bobine et dans quel sens le courant doit circuler
+Cette propriété électrique permet de nous indiquer comment alimenter les bobines et dans quel sens le courant doit circuler.
 
 ![Loi de LENZ](img/loi_de_lenz.jpg)
 
 (fr) [Loi de LENZ-FARADAY](https://fr.wikipedia.org/wiki/Loi_de_Lenz-Faraday)
 
-Cette loi nous permet de faire les premières simulation pour reproduire la sensation de toucher.
+Cette loi nous permet de faire les premières simulations pour reproduire la sensation de toucher.
 
 ![Simulation Bobinage](img/simulation_bobinage.gif)
 
@@ -84,18 +84,18 @@ Avec cette même loi, simulation avec 9 cellules.
 
 Après simulation on remarque plusieurs choses :
 
-* Il serait interressant de tenter de produire les bobines à plat même si le champ magnétique n'est pas idéal
+* Il serait intéressant de tenter de produire les bobines à plat même si le champ magnétique n'est pas idéal
 * Une optimisation de la forme des bobines est possible pour améliorer le rendement de l'inductance
 
 ### Étude de bobine en plan pour la gravure
 
-Pour optimiser la fabrication du bobinage du produit l'idéal serait de pouvoir produire les bobine en plan grace a un procédé simple de gravure de PCB sur [Pyralux](http://www.dupont.com/content/dam/dupont/products-and-services/electronic-and-electrical-materials/flexible-rigid-flex-circuit-materials/documents/PyraluxAPclad_DataSheet.pdf), un matériaux souple utilisé pour fabriquer des PCB.
+Pour optimiser la fabrication du bobinage du produit, l'idéal serait de pouvoir produire les bobines en plan grace à un procédé simple de gravure de PCB sur [Pyralux](http://www.dupont.com/content/dam/dupont/products-and-services/electronic-and-electrical-materials/flexible-rigid-flex-circuit-materials/documents/PyraluxAPclad_DataSheet.pdf), un matériau souple utilisé pour fabriquer des PCBs.
 
-Si le bobinage en plan s'avere
+Si le bobinage en plan s'avère…
 
 ##### Génération de bobine en plan
 
-Pour optimiser le rendement les bobines doivent être généré grace a des algorithmes strique qui respece l'espacement entre les conducteurs, espacement minimal dû a la gravure [en mm ?],
+Pour optimiser le rendement, les bobines doivent être générées grâce a des algorithmes strictes qui respectent l'espacement entre les conducteurs, espacement minimal dû à la gravure [en mm ?],
 
 ```
 beginShape();
@@ -113,7 +113,7 @@ endShape();
 
 ##### Optimiation de la forme de la bobine en plan
 
-Pour une utilisation optimale de la surface du Pyralux le cercle ne parait être adapté il fait naitre des ajouration entre chaque forme. un polygone devrait pouvoir optimiser l'espace et assurer une repartition total des bobines.
+Pour une utilisation optimale de la surface du Pyralux, le cercle ne paraît pas être adapté. Cette forme créé des vides entre chaque forme. Un polygone devrait pouvoir optimiser l'espace et assurer une répartition totale des bobines.
 
 ![Optimisation bobine](img/optimisation_bobine.png)
 
@@ -122,48 +122,48 @@ Pour une utilisation optimale de la surface du Pyralux le cercle ne parait être
 
 ##### Simulation du textile
 
-Nos recherches nous permettent de créer la prermière simulation complète de notre textile sensible
+Nos recherches nous permettent de créer la première simulation complète de notre textile sensible.
 
 ![LeFeel Prototype](img/lefeel_prototype.jpg)
 
-La simulation de tout les élèments du textile permettent d'en apercevoir la taille
+La simulation de tous les éléments du textile permet d'en apercevoir la taille.
 
 ![LeFeel Simulation de l'épaisseur](img/lefeel_proto_size.jpg)
 
 ##### Simulation du microcontroleur
 
-La définition de l'arbre d'interractivité nous permet de définir les composants principaux de la carte élèctronique
+La définition de l'arbre d'interactivité nous permet de définir les composants principaux de la carte électronique.
 
 ![Arbre d'interactivité](img/interactivity_tree.png)
 
-Les contraites du microcontroleur sont principalement sa taille et son autonomie et sa configuration automatique.
+Les contraintes du microcontrôleur sont principalement sa taille, son autonomie et sa configuration automatique.
 
-Notre contraite principale sera la facilité de configuration de l'objet par l'utilisateur. Son utilisation sera évidente et ne nécésitera pas de configuration. pas besoin d'entrer le mot de passe du réseau local ni d'effectuer un initialisation du controleur.
+Notre contrainte principale sera la facilité de configuration de l'objet par l'utilisateur. Son utilisation sera évidente et ne nécéssitera pas de configuration. pas besoin d'entrer le mot de passe du réseau local ni d'effectuer une initialisation du contrôleur.
 
-Pour se faire 3 technologie s'ouvre à nous :
+Pour se faire 3 technologies s'ouvrent à nous :
 
 * Sigfox
 	* + Acteur Francais
 	* + Technologie pes chère et scalable
-	* - Vitesse de transmittion des données très limités quelque bits par heure
-	
-* Lora (technologie devellopé par Orange)
-	* + Acteur Francais
-	* - Technologie encore nouvelle et peut répendu
-	* - Limitation du nombre de bits à envoyer
-	
-* LTE
-	* + Standar internationnal
-	* + très grand débit de donnée
-	* + Très scalable
-	* - technologie assez chère
+	* - Vitesse de transmission des données très limitées quelques bits par heure
 
-Nous avons choisi le technologie LTE qui est la plus courante et nous permet une grande quantité de donnée en transit
-Cette technologie posède une couverture mondiale bien meilleur que celle de l'internet traditionnel.
+* Lora (technologie développée par Orange)
+	* + Acteur Français
+	* - Technologie encore nouvelle et peut répandue
+	* - Limitation du nombre de bits à envoyer
+
+* LTE
+	* + Standard international
+	* + Très grand débit de données
+	* + Très scalables
+	* - Technologie assez chère
+
+Nous avons choisi la technologie LTE qui est la plus courante et nous permet une grande quantité de données en transit.
+Cette technologie possède une couverture mondiale bien meilleure que celle de l'internet traditionnel.
 
 ![Couverture LTE](img/3GPP_Long_Term_Evolution_Country_Map.png)
 
-Pour récapituler notre hardware à besoin :
+Pour récapituler notre hardware a besoin :
 
 * Une chip LTE
 * Gestion de l'alimentation
@@ -171,40 +171,48 @@ Pour récapituler notre hardware à besoin :
 * Bouton RESET
 * LED de statut
 
-Simulation du micro contrôleur
+Simulation du microcontrôleur
+
 ![Hardware prototype](img/hardware_1.png)
 
-Après recherche nous avons trouvé un micro controleur qui répond a tout nos rêve : le G01 EOM Module fabriqué par [Pycom](https://www.pycom.io). [lien faire ses caractéristique >](img/g01Specsheet.pdf)
+Après recherche, nous avons trouvé un microcontrôleur qui répond à toutes nos attentes : le G01 EOM Module fabriqué par [Pycom](https://www.pycom.io). [lien faire ses caractéristique >](img/g01Specsheet.pdf)
+
 ![G01 EOM](img/G01.png)
 
-Simulation de la taille du controleur
+Simulation de la taille du contrôleur
 
 ![Proto Size](img/lefeel_hardware1.png)
 ![Proto Size](img/lefeel_hardware2.png)
 
 Simulation en 3D
+
 ![Proto](img/lefeel_hardware3.png)
 ![Proto](img/lefeel_hardware4.png)
 ![Proto](img/lefeel_hardware5.png)
 
-CONNECTION entre le microontroleur et le textile par billage
+Connexion entre le microcontrôleur et le textile par billage
+
 ![Billage](img/billage1.png)
 ![Billage](img/billage2.png)
 
 ![Prototype Final](img/hardware_final.png)
 
-### transimittion du toucher en information
+### transmission du toucher en information
 
 ###### Description d'une caresse en information
 
-![Transmition du toucher en information](img/Caress-01.jpg)
+![Transmission du toucher en information](img/Caress-01.jpg)
 
 ###### Optimisation de la transmition du toucher
 
-Une approche vectorielle de la transmition du toucher pourrait nous permettre d'économiser de la transmittion d'information et donc de la batterie. à calculer si cette économie de Bits ne se pert pas en quand l'algorithme calcul la vecorisation en coordonnée.
+Une approche vectorielle de la transmission du toucher pourrait nous permettre d'économiser de la transmission d'informations et donc de la batterie. À calculer si cette économie de Bits ne se perd pas quand l'algorithme calcule la vectorisation en coordonnées.
 
 ![Transmition du toucher en information](img/Caress-02.jpg)
 
-Les recherches de Vincent Hayward sont une ouverture pour optimiser le déclenchement des bobines
+Les recherches de Vincent Hayward sont une ouverture pour optimiser le déclenchement des bobines.
 
 ![Perception du toucher](img/vincent_hayward_touch_perception.jpg)
+
+### Étude sur la recherche d'Alimentation par Induction
+
+[Quasistatic Cavity Resonance for Ubiquitous Wireless Power Transfer](https://www.youtube.com/watch?v=pkMbZmwhpDc)
