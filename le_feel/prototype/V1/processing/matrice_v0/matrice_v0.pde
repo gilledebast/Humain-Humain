@@ -14,8 +14,8 @@ import processing.serial.*;
 Serial myPort;
 
 int rectSize = 150;
-int row = 2;
-int cols = 2;
+int row = 3;
+int cols = 3;
 int addRow = 0;
 int addCols = 0;
 
@@ -29,7 +29,7 @@ float[] previousValue = new float[maxNumberOfSensors];  // array of previous val
 void setup () { 
   size(600, 600);
   //println(Serial.list());  // List all the available serial ports
-  String portName = "/dev/cu.usbmodem1421";
+  String portName = "/dev/cu.usbmodem1411";
   myPort = new Serial(this, portName, 9600);
   myPort.clear();
   myPort.bufferUntil('\n');  // don't generate a serialEvent() until you get a newline (\n) byte

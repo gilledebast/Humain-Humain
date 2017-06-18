@@ -199,6 +199,23 @@ Connexion entre le microcontrôleur et le textile par billage
 
 ### transmission du toucher en information
 
+##### Prototypage
+
+Pour réaliser une surface plusieur technique sont possible. mais deux sont principalement utilisé Capacitive ou Resistive.
+
+Nous avons choisi une la solution Capacitive
+
+Une solution est d'utiliser un textile dit zébre comme surface de détection du toucher.
+
+Hitek vend un "[Fabric Evaluation Kit](https://www.hitek-ltd.co.uk/fabric-evaluation-kit)" tout fait pour 20£ 
+![Fabric Evaluation Kit](img/fabric_evaluation_kit.jpg)
+
+Grâce à des capteurs capacitif les bandes du tissus peuvent facilement être relié à un arduino.
+
+Nous avons opté pour le capteur []
+
+[IMG]
+
 ###### Description d'une caresse en information
 
 ![Transmission du toucher en information](img/Caress-01.jpg)
