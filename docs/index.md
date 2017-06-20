@@ -230,6 +230,24 @@ Les recherches de Vincent Hayward sont une ouverture pour optimiser le déclench
 
 ![Perception du toucher](img/vincent_hayward_touch_perception.jpg)
 
+
+### Comment nos utilisateurs touchent le feel ?
+
+Inspiration de la structure de la peau pour adapter le textile à nos utilisateurs
+
+###### Lefeel sous les doights
+
+
+
+###### Adapter Voronoï
+
+![UX Design](img/toucher_voronoi.png)
+
+En mathématiques, un diagramme de Voronoï est un découpage du plan (pavage) en cellules à partir d'un ensemble discret de points
+
+![Voronoi](img/Voronoi_Gen_1.gif)
+![Voronoi](img/Voronoi_Gen_2.gif)
+
 ### Étude sur la recherche d'Alimentation par Induction
 
 [Quasistatic Cavity Resonance for Ubiquitous Wireless Power Transfer](https://www.youtube.com/watch?v=pkMbZmwhpDc)
