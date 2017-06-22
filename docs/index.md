@@ -237,9 +237,17 @@ Inspiration de la structure de la peau pour adapter le textile à nos utilisateu
 
 ###### Lefeel sous les doights
 
+typologie de geste affecitf
 
+Caractéristique choisie : Vitesse, Pression, Localisation.
 
-###### Adapter Voronoï
+1 -
+2 -
+3 -
+4 -
+5 -
+
+###### Adapter lefeel au usagé
 
 ![UX Design](img/toucher_voronoi.png)
 
@@ -247,6 +255,9 @@ En mathématiques, un diagramme de Voronoï est un découpage du plan (pavage) e
 
 ![Voronoi](img/Voronoi_Gen_1.gif)
 ![Voronoi](img/Voronoi_Gen_2.gif)
+
+Après accumulation des différentes typologie de toucher affectif voilà l
+![Voronoi](img/voronoi_1.gif)
 
 ### Étude sur la recherche d'Alimentation par Induction
 
